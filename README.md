@@ -5,7 +5,7 @@ Web application template for RiwiHub, an event management platform. This reposit
 
 ## ⚠️ Important
 
-This repository contains the base template for **RiwiHub**, a fictional event management platform. It includes the HTML and CSS views needed for the coder to build the dynamic behavior using JavaScript, as part of the performance test for **Module 3 of Javasquick**.
+This repository contains the base template for **RiwiHub**, a fictional event management platform. It includes the HTML and CSS views needed for the coder to build the behavior using JavaScript, as part of the performance test for **Module 3 of Javasquick**.
 
 This is just a **starter project**. As part of your evaluation, **you must complete this README** with the following:
 
