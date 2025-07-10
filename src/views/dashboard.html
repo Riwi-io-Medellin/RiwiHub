@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="logo">🎟️ RiwiHub</div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Eventos</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="dashboard">
+        <header class="dashboard-header">
+            <h1>Panel de administración</h1>
+        </header>
+
+        <section class="form-section">
+            <h2>Eventos</h2>
+            <form id="eventForm">
+                <input type="text" id="nombre" placeholder="Nombre del evento" required />
+                <input type="date" id="fecha" required />
+                <input type="number" id="capacidad" placeholder="Capacidad máxima" min="1" required />
+                <input type="text" id="ubicacion" placeholder="Ubicación" required />
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </form>
+        </section>
+
+        <section class="events-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Fecha</th>
+                        <th>Ubicación</th>
+                        <th>Capacidad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Festival Riwi 2025</td>
+                        <td>10/08/2025</td>
+                        <td>Medellín</td>
+                        <td>10</td>
+                        <td>
+                            <button class="btn-small edit">✏️</button>
+                            <button class="btn-small delete">🗑️</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Startup Day</td>
+                        <td>20/09/2025</td>
+                        <td>Bogotá</td>
+                        <td>13</td>
+                        <td>
+                            <button class="btn-small edit">✏️</button>
+                            <button class="btn-small delete">🗑️</button>
+                        </td>
+                    </tr>
+                    <!-- Más eventos -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

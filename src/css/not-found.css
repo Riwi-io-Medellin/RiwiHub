@@ -1,0 +1,70 @@
+@import url(./styles.css);
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--seasalt);
+  color: var(--space-cadet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Wrapper */
+.not-found-wrapper {
+  background: linear-gradient(to bottom right, var(--space-cadet), var(--slate-blue));
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card */
+.not-found-card {
+  background-color: var(--clear-white);
+  padding: 3rem;
+  border-radius: 16px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: var(--space-cadet);
+}
+
+/* Botón */
+.btn {
+  background-color: var(--mint);
+  color: var(--space-cadet);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: var(--arylide-yellow);
+}

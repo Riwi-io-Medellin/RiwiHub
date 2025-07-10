@@ -1,0 +1,24 @@
+/* 🎨 Colores oficiales y de apoyo */
+:root {
+  --space-cadet: #181E4B;   /* 001 */
+  --slate-blue: #6B5CFF;    /* 002 */
+  --clear-white: #FFFFFF;   /* 003 */
+  --seasalt: #F9FAFC;       /* 004 */
+  --mint: #5ACCA4;          /* 005 */
+  --arylide-yellow: #E6CA52;/* 006 */
+  --mauve: #EAA2FC;         /* 007 */
+  --tomato: #FE654F;        /* 008 */
+
+  --gray-100: #f4f4f4;
+  --gray-300: #dcdcdc;
+  --gray-700: #555;
+  --black: #1a1a1a;
+}
+
+/* Reset y base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

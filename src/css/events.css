@@ -1,0 +1,153 @@
+@import url(./index.css);
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--seasalt);
+  color: var(--space-cadet);
+}
+
+/* Header */
+.header {
+  background-color: var(--space-cadet);
+  color: var(--clear-white);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo a {
+  color: var(--clear-white);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header nav a {
+  color: var(--clear-white);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Secciones */
+.eventos-seccion {
+  margin-bottom: 3rem;
+}
+
+.eventos-seccion h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Lista de eventos */
+.eventos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Tarjetas */
+.evento-card {
+  background-color: var(--clear-white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.evento-card:hover {
+  transform: translateY(-5px);
+}
+
+.evento-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.evento-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+/* Botón */
+.btn-postularse {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--mint);
+  color: var(--space-cadet);
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-postularse:hover {
+  background-color: var(--arylide-yellow);
+}
+
+.btn-logout {
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 2px solid var(--clear-white);
+  color: var(--clear-white);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none !important;
+}
+
+.btn-logout:hover {
+  background-color: var(--clear-white);
+  color: var(--space-cadet);
+}
+
+/* Opcional: distinto fondo para ya inscritos */
+.evento-card.inscrito {
+  border: 2px solid var(--mauve);
+}
+
+/* Botón para apartar cupo */
+.btn-disponible,
+.btn-liberar {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilos individuales */
+.btn-disponible {
+  background-color: var(--mint);
+  color: var(--space-cadet);
+}
+
+.btn-disponible:hover {
+  background-color: var(--arylide-yellow);
+}
+
+.btn-liberar {
+  background-color: var(--tomato);
+  color: var(--clear-white);
+}
+
+.btn-liberar:hover {
+  background-color: #e94e3c;
+}
